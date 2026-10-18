@@ -1,0 +1,14 @@
+
+
+{
+  "gezegenler": ["Dünya", "Mars", "Jüpiter"],
+  "baglantilar": {
+    "Dünya": ["Mars"],
+    "Mars": ["Dünya", "Jüpiter"],
+    "Jüpiter": ["Mars"]
+  },
+  "baslangic": "Dünya",
+  "yakit": 80
+}
+
+

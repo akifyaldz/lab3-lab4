@@ -1,9 +1,8 @@
-## Görev 4: Önbellekli Rota Sayacı Performans Testi
+# pytest cache directory #
 
-Adım = 20 için yapılan hız testi sonuçları aşağıdadır:
+This directory contains data from the pytest's cache plugin,
+which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
 
-- Önbellek YOK  -> Sonuç: 1024 | Süre: 0.00168 saniye
-- Önbellek VAR  -> Sonuç: 1024 | Süre: 0.00008 saniye
+**Do not** commit this to version control.
 
-**Cache Info Çıktısı:**
-CacheInfo(hits=9, misses=31, maxsize=None, currsize=31)
+See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
